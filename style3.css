@@ -1,0 +1,69 @@
+.destinasi-title{
+	margin-block-end: 0px;
+	text-align: center;
+	font-size: 40px;
+  	font-family: 'Lucida Grande';
+  	color: #f2f2f2;
+  	letter-spacing: 12px;
+	text-shadow: 4px 4px 6px black;
+}
+
+.destinasi-wrapper{
+	background-color: rgb(218, 222, 255);
+	padding-bottom: 30px;
+}
+
+.destinasi-container{
+	max-width:1320px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
+.list-destinasi{
+	position: relative;
+	height: 360px;
+	flex:auto;
+	margin: auto;
+}
+.list-destinasi-text {
+	position: absolute;
+	background-image: linear-gradient(to right,rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.0)) ;
+	color :white;
+	padding: 0 0 20px 20px;
+	bottom: 0px;
+	width: 100%px;
+}
+.list-destinasi-text h2{
+	margin: 5px 0 5px 0;
+}
+.list-destinasi-text h4{
+	margin-bottom: 10px;
+}
+.list-destinasi-text p{
+	margin: 10px 0 15px 0;
+}
+.list-destinasi-text a{
+	text-align: center;
+	display: inline-block;
+	width: 150px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.btn-more{
+	color: darkblue;
+	background-color: yellow;
+	padding: 10px;
+	transition: all 0.4s;
+	
+}
+.list-destinasi a:hover{
+	background-color: White;
+	transform: scale(1.04);
+}

@@ -1,0 +1,74 @@
+
+.top-container{
+  max-width: 1200px;
+  padding:0 15px;
+  margin:0 auto;
+    
+  }
+  
+  .top-wrapper{
+    padding-top: 180px;
+    padding-bottom: 100px;
+    color: #ffffff;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    text-align: center;
+  }
+
+  .top-wrapper h1{
+    opacity: 0.85;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 6px black;
+  }
+
+  .top-wrapper p{
+    opacity: 0.85;
+    margin-bottom: 3px;
+    text-shadow: 4px 4px 6px black;
+  }
+
+  .btn{
+    padding:12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .btn-wrapper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+  }
+  
+  
+  .btn-wrapper p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  
+  .signup{
+    background-color: #239b76;
+  }
+
+  .facebook{
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+
+  .twitter{
+    background-color: #55acee;
+  }
+  
+  .btn:hover{
+      opacity: 1;
+  }
+
+  .fa{
+    margin-right: 5px;
+  }
