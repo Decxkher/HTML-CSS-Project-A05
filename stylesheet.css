@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+
+  .logo {
+    height: 74px;
+  }
+  header h1 {
+      float: right;
+      color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  header {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(32, 178, 170, 0.8);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .header-container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 75px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #eb3b5a;
+    cursor: pointer;
+    box-shadow: 0 7px lightseagreen;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer img {
+    width: 75px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    background-color: rgb(212, 255, 255);
+    padding-top: 30px;
+  }
+
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 30px 0;
+    display: none;
+  }
